@@ -1,5 +1,6 @@
 ---
 import "../styles/global.css";
+import { Font } from 'astro:assets';
 ---
 
 <html lang="en">
@@ -8,13 +9,13 @@ import "../styles/global.css";
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
+		<Font cssVariable="--font-masmak" preload />
 		<title>Astro</title>
 	</head>
 	<body>
-		<h1>Astro</h1>
-		<h1 class="text-3xl font-bold underline">
-			Hello world!
-		</h1>
+		<div class="container px-15 mx-auto">
+			<h1 class="text-6xl">مبادرة</h1>
+		</div>
 	</body>
 </html>
 

@@ -1,5 +1,5 @@
 {
-  "name": "",
+  "name": "website",
   "type": "module",
   "version": "0.0.1",
   "scripts": {
@@ -15,5 +15,8 @@
   },
   "engines": {
     "node": "23.9.0"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.9.4"
   }
 }
